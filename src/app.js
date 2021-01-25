@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express(); // calling express function
-const port = process.env.Port || 8080;
+const port = process.env.PORT || 5000;
 const path = require('path');
 const hbs = require('hbs');
 
