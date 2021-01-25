@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+{{>navbar}}
+<div class="container-fluid main_header">
+    <div class="row">
+        <div class="col-md-11 col-12 mx-auto main-container">
+            <div class="main_content">
+                <form action="" class="temp_form">
+                    <input type="text" autocomplete="off" placeholder="Enter your city name" id="cityName">
+                    <input type="button" value="search" id="submit-btn">
+                </form>
+            </div>
+            <div class="tempInformation">
+                <div class="top-layer">
+                    <p id="day">Sunday</p>
+                    <p id="today-day">24 Jan</p>
+                </div>
+                <div class="main-layer">
+                    <p id="city-name"> Search weather of your favorite city </p>
+                    <div class="middle-layer data-hide">
+                        <p id="temp"><span>0</span><sup>o</sup>C</p>
+                        <p id="temp-status">
+                            <figure><img class='temp-icon' src="weatherAssets/cloudy.png" alt="Loading..."></figure>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/main.js"></script>
+<!--{{>footer}}-->
+</body>
+</html>

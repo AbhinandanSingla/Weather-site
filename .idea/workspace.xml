@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0009465f-458d-4f22-878e-9d76471ac967" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1nPoP4HfbUqP1yJN3B1vG0pO0yK" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.3" />
+    <property name="javascript.nodejs.core.library.typings.version" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/weatherAssets" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github\weather\public\weatherAssets" />
+      <recent name="E:\Github\weather" />
+      <recent name="E:\Github\weather\public\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\weather\src\templates" />
+      <recent name="E:\Github\weather\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0009465f-458d-4f22-878e-9d76471ac967" name="Default Changelist" comment="" />
+      <created>1611301058457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611301058457</updated>
+      <workItem from="1611301060748" duration="1273000" />
+      <workItem from="1611302641055" duration="4310000" />
+      <workItem from="1611307480473" duration="144000" />
+      <workItem from="1611309171397" duration="2199000" />
+      <workItem from="1611311425910" duration="377000" />
+      <workItem from="1611384801157" duration="6800000" />
+      <workItem from="1611411285538" duration="1762000" />
+      <workItem from="1611470253633" duration="12725000" />
+      <workItem from="1611555315733" duration="5311000" />
+      <workItem from="1611566229738" duration="1502000" />
+      <workItem from="1611568750930" duration="3147000" />
+      <workItem from="1611587243168" duration="13416000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

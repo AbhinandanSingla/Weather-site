@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@500;700&family=Concert+One&family=Satisfy&family=Sofia&display=swap');
+/*font-family: 'Baloo Chettan 2', cursive;*/
+/*font-family: 'Concert One', cursive;*/
+/*font-family: 'Satisfy', cursive;*/
+/*font-family: 'Sofia', cursive;*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Chettan 2', cursive;
+
+}
+
+:root {
+    --main-bg: #1e272e;
+    --main-color: #0097e6;
+}
+
+html {
+    font-size: 62.5%; /* it means now 1rem = 10px*/
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    margin: 0;
+}
+
+.main_menu {
+    background-color: var(--main-bg);
+    padding: 2rem;
+}
+
+.navbar {
+    color: #fff;
+    background-color: var(--main-bg);
+}
+
+.navbar li {
+    margin-left: 2rem;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+#navBar-logo {
+    font-size: 2rem;
+
+}
+
+.navbar a:hover {
+    color: var(--main-bg);
+}
+
+.fa-snowflake {
+    transition: all linear;
+    animation: rot 4s infinite linear;
+}
+
+
+.navbar-toggler {
+    background-color: white;
+}
+
+/*main header*/
+
+
+.main_header_left {
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.main_header_right {
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+
+.main_header_left h1 {
+    font-size: 4rem;
+    margin: 1rem 0 4rem 0;
+    text-transform: capitalize;
+}
+
+.main_header_left h1 span {
+    color: var(--main-color);
+}
+
+
+.main_header_left button {
+    border: none;
+    padding: 0.8rem 1.8rem;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    box-shadow: 0 8px 6px -6px #000;
+    outline: none;
+}
+
+.main_header_right figure img {
+    width: 45rem;
+}
+
+.main_header_left figure img {
+    width: 50rem;
+}
+
+.main_header_left button:hover {
+    box-shadow: 0 8px 6px -6px var(--main-color);
+}
+
+/*weather style*/
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main_content {
+    width: 50vw;
+    border-radius: 10rem;
+    margin-top: 4rem;
+    background-color: var(--main-bg);
+}
+
+.temp_form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.temp_form input[type='text'] {
+    width: 100%;
+    background-color: var(--main-bg);
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+}
+
+#cityName {
+    padding: 1.5rem;
+    border-radius: 10rem;
+    background-color: var(--main-bg);
+    border: none;
+    width: 100%;
+    text-transform: capitalize;
+
+}
+
+#submit-btn {
+    margin-right: 0.5rem;
+    padding: 1.3rem 3.5rem;
+    border-radius: 10rem;
+    background-color: var(--main-color);
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    outline: none;
+    color: white;
+    text-transform: capitalize;
+
+}
+
+#submit-btn:hover {
+    background-color: white;
+    color: var(--main-bg);
+}
+
+::placeholder {
+    color: #bfc1c8;
+}
+
+.tempInformation {
+    width: 26vw;
+    margin: 2rem auto;
+    min-height: 20rem;
+    background-color: #323544;
+    border-radius: 2rem;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.top-layer {
+    width: 100%;
+    height: 20%;
+    background-color: #2d303d;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.top-layer p {
+    padding: 2rem;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.main-layer {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.main-layer #city-name {
+    color: #bfc1c8;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.main-layer .middle-layer {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.main-layer .middle-layer p {
+    font-size: 7rem;
+    font-weight: 900;
+
+}
+
+.temp-icon {
+    position: relative;
+    width: 12rem;
+    left: 2rem;
+    bottom: 4rem;
+}
+
+sup {
+    font-size: 6rem;
+    margin-top: -2rem;
+}
+
+.data-hide {
+    visibility: hidden;
+    transition: all 0.3s linear;
+}
+
+/*footer style*/
+footer {
+    width: 100%;
+    background-color: var(--main-bg);
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    line-height: 5rem;
+    font-size: 1.4rem;
+}
+
+
+@keyframes rot {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*responsive code*/
+@media (max-width: 1250px) {
+    .tempInformation {
+        width: 40rem;
+    }
+}
+
+@media (max-width: 810px) {
+
+    .tempInformation {
+        width: 30rem;
+    }
+
+    .main_content {
+        min-width: 80%;
+    }
+
+    #submit-btn {
+        padding: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main_header_left {
+        height: auto;
+        margin: 5rem 0;
+    }
+
+    .main_header_left p {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .main_header_left h1 {
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .main_header_right {
+        height: auto;
+        margin-top: 3rem;
+    }
+
+    .main_header_right figure img {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .main_header_left h1 {
+        font-size: 3rem;
+    }
+
+    .main_header_left p {
+        font-size: 2rem;
+    }
+
+    .main_header_left button {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    .tempInformation {
+        width: 80%;
+        height: 20%;
+    }
+
+    .main_content {
+        width: 80%;
+    }
+    .main-container{
+        margin-bottom: 12rem;
+    }
+#submit-btn{
+    margin-right: 0.3rem;
+    padding-top: 0.8rem;
+
+}
+    .main-layer #city-name {
+        font-size: 1.4rem;
+    }
+    .middle-layer #temp{
+        font-size: 5rem;
+    }
+    .temp_form input[type='text'] {
+        font-size: 1rem;
+    }
+    .middle-layer .temp-icon{
+        width: 10rem;
+        bottom: 1rem;
+    }
+
+}
+
+@media (max-width: 340px) {
+    .main_header_left h1 {
+        font-size: 2rem;
+    }
+
+    .main_header_left p {
+        font-size: 1rem;
+    }
+
+    .main_header_left button {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+}
